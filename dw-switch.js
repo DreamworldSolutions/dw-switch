@@ -1,9 +1,17 @@
-import { LitElement, css } from 'lit-element';
-import '@material/mwc-switch/mwc-switch';
+import { css } from 'lit-element';
+import { Switch } from '@material/mwc-switch/mwc-switch';
 
-export class DwSwitch extends LitElement {
-  
-
+export class DwSwitch extends Switch {
+  static get styles() {
+    return [
+      Switch.styles,
+      css`
+        :host(:not([secondary])){
+          --mdc-theme-secondary: var(--mdc-theme-primary);
+        }
+      `
+    ]
+  }
 }
 
 customElements.define('dw-switch', DwSwitch);
