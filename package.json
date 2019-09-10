@@ -1,6 +1,6 @@
 {
   "name": "@deramworld/dw-switch",
-  "version": "0.0.0-development",
+  "version": "1.0.0-initial-setup.3",
   "description": "Extended element of \"mwc-switch\"",
   "main": "dw-switch.js",
   "scripts": {
