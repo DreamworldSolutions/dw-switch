@@ -1,0 +1,30 @@
+{
+  "name": "dw-switch",
+  "version": "0.0.0-development",
+  "description": "Extended element of \"mwc-switch\"",
+  "main": "dw-switch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamworldSolutions/dw-switch.git"
+  },
+  "author": "Nirmal Baldaniya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DreamworldSolutions/dw-switch/issues"
+  },
+  "homepage": "https://github.com/DreamworldSolutions/dw-switch#readme",
+  "dependencies": {
+    "@material/mwc-switch": "^0.8.0",
+    "lit-element": "^2.2.0"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.10",
+    "semantic-release": "beta"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
