@@ -1,5 +1,5 @@
 {
-  "name": "dw-switch",
+  "name": "@deramworld/dw-switch",
   "version": "0.0.0-development",
   "description": "Extended element of \"mwc-switch\"",
   "main": "dw-switch.js",
