@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit-element';
 import '../dw-switch';
-import {ThemeStyle} from '@dreamworld/material-styles/theme.js';
+import { ThemeStyle } from '@dreamworld/material-styles/theme.js';
 
 
 export class DwSwitchDemo extends LitElement {
