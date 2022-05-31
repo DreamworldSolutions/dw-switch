@@ -6,8 +6,8 @@ export class DwSwitch extends Switch {
     return [
       Switch.styles,
       css`
-        :host(:not([secondary])){
-          --mdc-theme-secondary: var(--mdc-theme-primary);
+        :host([secondary]){
+          --mdc-theme-primary: var(--mdc-theme-secondary);
         }
       `
     ]
