@@ -1,4 +1,4 @@
-import { css } from 'lit-element';
+import { LitElement, html, css } from '@dreamworld/pwa-helpers/lit.js';
 import { Switch } from '@material/mwc-switch/mwc-switch';
 
 export class DwSwitch extends Switch {
