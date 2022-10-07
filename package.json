@@ -19,7 +19,7 @@
   "homepage": "https://github.com/DreamworldSolutions/dw-switch#readme",
   "dependencies": {
     "@dreamworld/pwa-helpers": "^1.13.1",
-    "@material/mwc-switch": "^0.26.1"
+    "@material/mwc-switch": "0.27.0"
   },
   "devDependencies": {
     "@dreamworld/material-styles": "^1.1.0",
