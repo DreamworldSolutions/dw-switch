@@ -1,5 +1,5 @@
-import { css } from 'lit-element';
-import { Switch } from '@material/mwc-switch/mwc-switch';
+import { css } from 'lit';
+import { Switch } from '@material/mwc-switch/deprecated/mwc-switch.js';
 
 export class DwSwitch extends Switch {
   static get styles() {
